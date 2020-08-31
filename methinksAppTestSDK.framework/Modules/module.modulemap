@@ -1,0 +1,6 @@
+framework module methinksAppTestSDK {
+  umbrella header "methinksAppTestSDK.h"
+
+  export *
+  module * { export * }
+}

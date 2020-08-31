@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'methinksAppTest'
+  s.name             = "methinksAppTest"
   s.version          = '0.1.0'
   s.summary          = 'methinks App Test iOS SDK for internal testing or unmoderated product test.'
 
