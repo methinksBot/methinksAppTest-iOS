@@ -19,6 +19,13 @@ DerivedData
 *.hmap
 *.ipa
 
+copy.podspec
+Example/Pods
+Example/methinksAppTest.xcworkspace
+Example/Podfile.lock
+Example/methinksAppTest.xcodeproj/xcuserdata/
+methinksAppTestSDK.framework
+
 # Bundler
 .bundle
 
