@@ -1,9 +1,9 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '10.0'
 
 target 'methinksAppTest_Example' do
-#  pod "methinksAppTest"
+  pod "methinksAppTest"
 
   target 'methinksAppTest_Tests' do
     inherit! :search_paths
