@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'methinksAppTest'
-  s.version          = $1
+  s.version          = "0.1.2"
   s.summary          = 'methinks App Test iOS SDK for internal testing or unmoderated product test.'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'methinks Technologies Inc.' => 'hi@methinks.io' }
-  s.source           = { :git => 'https://github.com/hansimmmi@gmail.com/methinksAppTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/methinksBot/methinksAppTest-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.platform         = "ios"
   s.ios.deployment_target = '10.0'
