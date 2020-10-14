@@ -35,5 +35,20 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'GoogleWebRTC-Bitcode'
+  
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.default_subspec = 'Full'
+
+  s.subspec 'Lite' do |l| 
+    
+  end
+  s.subspec 'Full' do |r|
+    r.xcconfig =  
+        { 'OTHER_CFLAGS' => '$(inherited) MTK_PATCHER_RECORDING=1'}
+    r.dependency 'GoogleWebRTC-Bitcode'
+  end
+end
 end
