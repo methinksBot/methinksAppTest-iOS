@@ -1,0 +1,6 @@
+framework module methinksAppTest_LITE {
+  umbrella header "methinksAppTest_LITE.h"
+
+  export *
+  module * { export * }
+}
