@@ -10,15 +10,15 @@
 		</data>
 		<key>Headers/MTKAppTestSDK.h</key>
 		<data>
-		cXDjYUVxMUo6VCQmBB4dwH6DfKk=
+		RP1EmxkLO2ozdfuw2CF+eD97K+c=
 		</data>
 		<key>Headers/methinksAppTest_LITE.h</key>
 		<data>
-		Y1DOk5qV/xpXCYPvAnp4Ow3LSM0=
+		1W6TAOLtYbAj9OPU0HyZhpMx/6s=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zGhadHoJPYAUYFTOEdSa7R8cIGg=
+		O6tY5/t9cVOgQx4YJuEGNraHaaw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -132,22 +132,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cXDjYUVxMUo6VCQmBB4dwH6DfKk=
+			RP1EmxkLO2ozdfuw2CF+eD97K+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			y9RZ+hJn4gwsB6pRK6pJgOld6EVgZVABBnHlUDCjI9c=
+			pfxdWZKs1BkpVpQ8lQhMHGfqHxL+kc5EHzqRv4TQjlw=
 			</data>
 		</dict>
 		<key>Headers/methinksAppTest_LITE.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y1DOk5qV/xpXCYPvAnp4Ow3LSM0=
+			1W6TAOLtYbAj9OPU0HyZhpMx/6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			gRpWU0b97OIXxMqH4VhYHygMv8RIYPnUVylpJ0pzYtE=
+			SjwjR/Y3LH4z6XDYIk0QtOwgrkQyDfrHDajtkWKnYfA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,28 +1,31 @@
 //
-//  MTKIPAPatchEntry.h
-//  IPAPatch
+//  MTKAppTestSDK.h
+//  methinks AppTest iOS
 //
-//  Created by Philip Yun on 2017/3/17.
+//  Created by methinks Technologies Inc. on 2017/3/17.
 //
 //
 
 #import <Foundation/Foundation.h>
-
-
-
-//#import <HockeySDK/HockeySDK.h>
-//#import <AppCenter/AppCenter.h>
-//#import <AppCenterCrashes/AppCenterCrashes.h>
-
-
-//#define MACRO_NAME(f) #f
-//#define MACRO_VALUE(f)  MACRO_NAME(f)
-//#define loginAlert 1
-//#define reloginAlert 2
-@interface MTKAppTestSDK : NSObject 
+@interface MTKAppTestSDK : NSObject
+/*
+ Singleton instance
+ */
 + (instancetype)shared;
+/*
+ Initailize with projectId provided by methinks
+ */
 - (void) initializeWithProjectId:(NSString*) projectId;
+/*
+ Triggering event which associated with timestamps or in-app surveys
+ If the event is associated with in-app survey, need to configure in methinks dashboard.
+ */
 - (void) triggerEvent:(NSString*) event;
+
+/*
+ Recroding APIs only availbale in methinks App Test SDK Full version.
+ */
+
 - (void) makeRecordingWithTitle:(NSString*) title length:(NSInteger) durationInSec;
 - (void) startRecordingWithTitle:(NSString*) title;
 - (void) endRecordingWithTitle:(NSString*) title;

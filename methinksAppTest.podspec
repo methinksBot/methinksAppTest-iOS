@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'methinksAppTest'
-  s.version          = "0.1.3"
+  s.version          = ""
   s.summary          = 'methinks App Test iOS SDK for internal testing or unmoderated product test.'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "methinks App Test SDK is for in-depth app userability testing SDK for apps in pre-launch period."
+  s.description      = "methinks App Test SDK is for in-depth app usability testing SDK for apps in pre-launch period."
 
   s.homepage         = 'https://www.methinks.io'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'methinksAppTest.framework'
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-    'GCC_PREPROCESSOR_DEFINITIONS' =>'$(inherited) MTK_PATCHER=1 MTK_AT_SDK=1'
+    'GCC_PREPROCESSOR_DEFINITIONS' =>'$(inherited) MTK_PATCHER=1 MTK_AT_SDK=1' 
   }
   s.xcconfig = {
     'ENABLE_BITCODE' => 'NO'

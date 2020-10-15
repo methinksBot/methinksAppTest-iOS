@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'methinksAppTest_LITE'
-  s.version          = "0.1.3"
+  s.version          = ""
   s.summary          = 'methinks App Test iOS SDK for internal testing or unmoderated product test.'
 
 # This description is used to generate tags and improve search results.
@@ -36,4 +36,6 @@ Pod::Spec.new do |s|
     'ENABLE_BITCODE' => 'NO'
   }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
+  
 end

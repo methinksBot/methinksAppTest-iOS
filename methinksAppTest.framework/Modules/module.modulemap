@@ -1,6 +1,0 @@
-framework module methinksAppTest {
-  umbrella header "methinksAppTest.h"
-
-  export *
-  module * { export * }
-}
