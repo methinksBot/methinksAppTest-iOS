@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'methinksAppTest'
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = 'methinks App Test iOS SDK for internal testing or unmoderated product test.'
 
 # This description is used to generate tags and improve search results.
