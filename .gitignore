@@ -20,6 +20,8 @@ DerivedData
 *.ipa
 
 copy.podspec
+copy_FULL.podspec
+copy_LITE.podspec
 Example/Pods
 Example/methinksAppTest.xcworkspace
 Example/Podfile.lock
