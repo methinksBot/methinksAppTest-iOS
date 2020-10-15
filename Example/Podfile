@@ -11,3 +11,7 @@ target 'methinksAppTest_Example' do
     
   end
 end
+
+target 'methinksAppTest_LITE-Example' do
+  pod "methinksAppTest_LITE"
+end

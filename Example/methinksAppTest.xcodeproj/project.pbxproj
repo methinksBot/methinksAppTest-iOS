@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03373305DE7856F46B44B70B /* Pods_methinksAppTest_LITE_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69220E1B55747BAE27E56F4B /* Pods_methinksAppTest_LITE_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +25,13 @@
 		84578C798F276CA9F828EAB5 /* Pods_methinksAppTest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD5879BBBBB575C618A77A3 /* Pods_methinksAppTest_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CB9AAF9B16733E06F2B71690 /* Pods_methinksAppTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F070CE6E8CE878B01A37FE0D /* Pods_methinksAppTest_Example.framework */; };
+		D4AC5103253914C40046CE99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC5102253914C40046CE99 /* AppDelegate.m */; };
+		D4AC5106253914C40046CE99 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC5105253914C40046CE99 /* SceneDelegate.m */; };
+		D4AC5109253914C40046CE99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC5108253914C40046CE99 /* ViewController.m */; };
+		D4AC510C253914C40046CE99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AC510A253914C40046CE99 /* Main.storyboard */; };
+		D4AC510E253914C50046CE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4AC510D253914C50046CE99 /* Assets.xcassets */; };
+		D4AC5111253914C50046CE99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AC510F253914C50046CE99 /* LaunchScreen.storyboard */; };
+		D4AC5114253914C50046CE99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AC5113253914C50046CE99 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +70,25 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		656C8E5A581D1FB62C51CE05 /* Pods-methinksAppTest_LITE-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-methinksAppTest_LITE-Example.debug.xcconfig"; path = "Target Support Files/Pods-methinksAppTest_LITE-Example/Pods-methinksAppTest_LITE-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		69220E1B55747BAE27E56F4B /* Pods_methinksAppTest_LITE_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_methinksAppTest_LITE_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D69F907D6B67B65A288DCE5 /* Pods-methinksAppTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-methinksAppTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-methinksAppTest_Tests/Pods-methinksAppTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6D8F24D5FAC0FC161D69A07 /* Pods-methinksAppTest_LITE-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-methinksAppTest_LITE-Example.release.xcconfig"; path = "Target Support Files/Pods-methinksAppTest_LITE-Example/Pods-methinksAppTest_LITE-Example.release.xcconfig"; sourceTree = "<group>"; };
 		A914285A69D5A695F5AB6DA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D4AC50FF253914C40046CE99 /* methinksAppTest_LITE-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "methinksAppTest_LITE-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AC5101253914C40046CE99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4AC5102253914C40046CE99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4AC5104253914C40046CE99 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D4AC5105253914C40046CE99 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D4AC5107253914C40046CE99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4AC5108253914C40046CE99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4AC510B253914C40046CE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4AC510D253914C50046CE99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4AC5110253914C50046CE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4AC5112253914C50046CE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AC5113253914C50046CE99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F070CE6E8CE878B01A37FE0D /* Pods_methinksAppTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_methinksAppTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +115,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4AC50FC253914C40046CE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03373305DE7856F46B44B70B /* Pods_methinksAppTest_LITE_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -101,6 +132,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for methinksAppTest */,
 				6003F5B5195388D20070C39A /* Tests */,
+				D4AC5100253914C40046CE99 /* methinksAppTest_LITE-Example */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				7223D803CB15A044D6384589 /* Pods */,
@@ -112,6 +144,7 @@
 			children = (
 				6003F58A195388D20070C39A /* methinksAppTest_Example.app */,
 				6003F5AE195388D20070C39A /* methinksAppTest_Tests.xctest */,
+				D4AC50FF253914C40046CE99 /* methinksAppTest_LITE-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +158,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				F070CE6E8CE878B01A37FE0D /* Pods_methinksAppTest_Example.framework */,
 				2BD5879BBBBB575C618A77A3 /* Pods_methinksAppTest_Tests.framework */,
+				69220E1B55747BAE27E56F4B /* Pods_methinksAppTest_LITE_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,8 +226,28 @@
 				54B690D14267E14644782EE9 /* Pods-methinksAppTest_Example.release.xcconfig */,
 				6D69F907D6B67B65A288DCE5 /* Pods-methinksAppTest_Tests.debug.xcconfig */,
 				3A0474D7F982304428376873 /* Pods-methinksAppTest_Tests.release.xcconfig */,
+				656C8E5A581D1FB62C51CE05 /* Pods-methinksAppTest_LITE-Example.debug.xcconfig */,
+				A6D8F24D5FAC0FC161D69A07 /* Pods-methinksAppTest_LITE-Example.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4AC5100253914C40046CE99 /* methinksAppTest_LITE-Example */ = {
+			isa = PBXGroup;
+			children = (
+				D4AC5101253914C40046CE99 /* AppDelegate.h */,
+				D4AC5102253914C40046CE99 /* AppDelegate.m */,
+				D4AC5104253914C40046CE99 /* SceneDelegate.h */,
+				D4AC5105253914C40046CE99 /* SceneDelegate.m */,
+				D4AC5107253914C40046CE99 /* ViewController.h */,
+				D4AC5108253914C40046CE99 /* ViewController.m */,
+				D4AC510A253914C40046CE99 /* Main.storyboard */,
+				D4AC510D253914C50046CE99 /* Assets.xcassets */,
+				D4AC510F253914C50046CE99 /* LaunchScreen.storyboard */,
+				D4AC5112253914C50046CE99 /* Info.plist */,
+				D4AC5113253914C50046CE99 /* main.m */,
+			);
+			path = "methinksAppTest_LITE-Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +291,25 @@
 			productReference = 6003F5AE195388D20070C39A /* methinksAppTest_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D4AC50FE253914C40046CE99 /* methinksAppTest_LITE-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AC5117253914C50046CE99 /* Build configuration list for PBXNativeTarget "methinksAppTest_LITE-Example" */;
+			buildPhases = (
+				D3A3A088EF11AFAE167A86D6 /* [CP] Check Pods Manifest.lock */,
+				D4AC50FB253914C40046CE99 /* Sources */,
+				D4AC50FC253914C40046CE99 /* Frameworks */,
+				D4AC50FD253914C40046CE99 /* Resources */,
+				5D3C39C826882F0255DCBD64 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "methinksAppTest_LITE-Example";
+			productName = "methinksAppTest_LITE-Example";
+			productReference = D4AC50FF253914C40046CE99 /* methinksAppTest_LITE-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -252,6 +325,11 @@
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
+					};
+					D4AC50FE253914C40046CE99 = {
+						CreatedOnToolsVersion = 12.0.1;
+						DevelopmentTeam = TLL7CQKB32;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -271,6 +349,7 @@
 			targets = (
 				6003F589195388D20070C39A /* methinksAppTest_Example */,
 				6003F5AD195388D20070C39A /* methinksAppTest_Tests */,
+				D4AC50FE253914C40046CE99 /* methinksAppTest_LITE-Example */,
 			);
 		};
 /* End PBXProject section */
@@ -292,6 +371,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AC50FD253914C40046CE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AC5111253914C50046CE99 /* LaunchScreen.storyboard in Resources */,
+				D4AC510E253914C50046CE99 /* Assets.xcassets in Resources */,
+				D4AC510C253914C40046CE99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +409,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5D3C39C826882F0255DCBD64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-methinksAppTest_LITE-Example/Pods-methinksAppTest_LITE-Example-frameworks.sh",
+				"${PODS_ROOT}/methinksAppTest_LITE/methinksAppTest_LITE.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/methinksAppTest_LITE.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-methinksAppTest_LITE-Example/Pods-methinksAppTest_LITE-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9A7362F5C45D2C18A22C7B1E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,6 +449,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D3A3A088EF11AFAE167A86D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-methinksAppTest_LITE-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E9821623D2299E598E21174D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,13 +478,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-methinksAppTest_Example/Pods-methinksAppTest_Example-frameworks.sh",
-				"${PODS_ROOT}/GoogleWebRTC-Bitcode/Frameworks/frameworks/WebRTC.framework",
-				"${PODS_ROOT}/methinksAppTest/methinksAppTestSDK.framework",
+				"${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework",
+				"${PODS_ROOT}/methinksAppTest/methinksAppTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/methinksAppTestSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/methinksAppTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -380,6 +509,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AC50FB253914C40046CE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AC5109253914C40046CE99 /* ViewController.m in Sources */,
+				D4AC5103253914C40046CE99 /* AppDelegate.m in Sources */,
+				D4AC5114253914C50046CE99 /* main.m in Sources */,
+				D4AC5106253914C40046CE99 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +554,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D4AC510A253914C40046CE99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AC510B253914C40046CE99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4AC510F253914C50046CE99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AC5110253914C50046CE99 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -574,6 +730,89 @@
 			};
 			name = Release;
 		};
+		D4AC5115253914C50046CE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656C8E5A581D1FB62C51CE05 /* Pods-methinksAppTest_LITE-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TLL7CQKB32;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "methinksAppTest_LITE-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.methinks.methinksAppTest-LITE-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4AC5116253914C50046CE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D8F24D5FAC0FC161D69A07 /* Pods-methinksAppTest_LITE-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TLL7CQKB32;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "methinksAppTest_LITE-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.methinks.methinksAppTest-LITE-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -600,6 +839,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AC5117253914C50046CE99 /* Build configuration list for PBXNativeTarget "methinksAppTest_LITE-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AC5115253914C50046CE99 /* Debug */,
+				D4AC5116253914C50046CE99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

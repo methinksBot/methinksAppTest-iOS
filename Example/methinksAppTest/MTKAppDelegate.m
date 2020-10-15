@@ -7,7 +7,7 @@
 //
 
 #import "MTKAppDelegate.h"
-
+#import <methinksAppTest/methinksAppTest.h>
 @implementation MTKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
