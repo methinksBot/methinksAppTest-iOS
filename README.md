@@ -16,9 +16,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 methinksAppTest is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+### methinksAppTest SDK including screen recording
 ```ruby
 pod 'methinksAppTest'
 ```
+
+### methinksAppTest SDK without screen recording
+```ruby
+pod 'methinksAppTest_LITE'
+```
+
 
 ## Author
 
